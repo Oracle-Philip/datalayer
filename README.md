@@ -1,3 +1,5 @@
+출처 : Android WearOS Sample clone repository..
+
 
 Android DataLayer Sample
 ========================
