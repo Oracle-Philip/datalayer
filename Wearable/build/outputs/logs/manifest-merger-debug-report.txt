@@ -1,0 +1,445 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:17:1-69:12
+INJECTED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:17:1-69:12
+INJECTED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:17:1-69:12
+INJECTED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:17:1-69:12
+MERGED from [androidx.activity:activity:1.7.2] /Users/sangpillyoon/.gradle/caches/transforms-3/b5affbfebaaf09174bd3152973c774ff/transformed/jetified-activity-1.7.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.wear.compose:compose-material-core:1.2.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/938f5b677c59065eaf91ae6033befdf3/transformed/jetified-compose-material-core-1.2.0-beta02/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.wear.compose:compose-foundation:1.2.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/529f4ea0a66b0575446bfcff4b7aa46d/transformed/jetified-compose-foundation-1.2.0-beta02/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.wear.compose:compose-material:1.2.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/3bc4227850166a5f568397192ccb9ab9/transformed/jetified-compose-material-1.2.0-beta02/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f96a1f4cbbe3f4524d290894f7ae1da7/transformed/jetified-foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/99f1d6dcbc67e0a6548f52d9dd8cd520/transformed/jetified-animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/6a84f7205e2eddb0d622d5e89f1af435/transformed/jetified-animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/73f99f5ba4287008d006f47cfa4722f6/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/7fa02f3187df5f1ca504536bb63aa59d/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/e0a0ee7ed009f41cfb5c982becd7f21c/transformed/jetified-ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/ac2236c2ea19ff3c7d2e076edb60234f/transformed/jetified-ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/fe11e2c9849b795747bb595e74dcbfd2/transformed/jetified-ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/313af301a0f4c3177d65137459fbb624/transformed/jetified-ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f700c9cc62f31f1491ba0cc93e4f4ac1/transformed/jetified-ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f2b17f8bf7cddc7542884cdf956da98d/transformed/jetified-ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.material:material-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/fe0b5b360c0ae40aa48487e7eae41185/transformed/jetified-material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/5e43de27d151ccdfb5aa52db5caeecab/transformed/jetified-material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/9228aec399cff40b5332ee4e9713d0fb/transformed/jetified-material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/4b380f63ac5392a418a9352fba37cdeb/transformed/jetified-foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/6e5c662a4bf1e5e8c9572e2977ecf054/transformed/jetified-ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.7.2] /Users/sangpillyoon/.gradle/caches/transforms-3/27c58cbecdfc287e2df70057cc690fcb/transformed/jetified-activity-ktx-1.7.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.7.2] /Users/sangpillyoon/.gradle/caches/transforms-3/02ee860948a2373d0cbda6ee92936bd5/transformed/jetified-activity-compose-1.7.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-wearable:18.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/af8ed23768054205f37a0b21781237ef/transformed/jetified-play-services-wearable-18.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/sangpillyoon/.gradle/caches/transforms-3/22e549e258f235566cd7856c2cf2bff4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/ed154484348e189ad7c9d77471244194/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/1ca7fb74497af86ff351431a3fdda037/transformed/jetified-runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/sangpillyoon/.gradle/caches/transforms-3/d19ccb87588b1af2d47769564a876652/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/f1f0a595c4251b6e52c0b862e37624fa/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/d0a730a7b64d0dec5a16982fa30906a0/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.11.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/fca6afccdb0fd1cfb4d21af494d883e3/transformed/jetified-core-ktx-1.11.0-beta02/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/babd2137b2024400b9115fc12956e325/transformed/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2:1.4.0-beta05] /Users/sangpillyoon/.gradle/caches/transforms-3/ba8f8c97d8465ff7554614b5f7ea3b1c/transformed/jetified-emoji2-1.4.0-beta05/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/983dda9adaa2c016be38c544a2a99e1b/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/3fa0db7e0b23c9a2ed9dc646f5190ae5/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/b19e34dec807548efff5299b900da413/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/5dba40ca2e782fc8295e86eb7a7edee0/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/caaa2f0beeb0964c97c7fb375dd077a8/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/67f3fa8c49d5d705e0a466a469a3f8b5/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/509eb73da09c729d1384504c6512e1db/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/bde995c2ee7538e469d3d522cbae5881/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/65a90c443f7548040e05fc535985bf3b/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/ac2741ed1a2c8ef4f8cada9044683750/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/b01a07e95a1f4ed958aa8230b7c4e8e2/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.11.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f319b12e7796856f5deebbf1588f1757/transformed/core-1.11.0-beta02/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/8d79f0e74a5cefa628fe86eb8a7a6578/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/1b4fd3704329d2513d940337461050ef/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/a770cda70f2c6aaf9d0bfb62709235f5/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/eac1e6d97d60b4abb441ccf938cc18be/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/1f96dae8ba818f16e23e02f5b43d1d79/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/sangpillyoon/.gradle/caches/transforms-3/e46beea89977fc5f6da9857b54b20704/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/sangpillyoon/.gradle/caches/transforms-3/17a791d3a2b3dbb1fed6265f03798962/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/84c9fa419549611ae3e4e611030ccb70/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/cce3e220e6cdd6c1325fa9e7881e3e08/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/c5a634feddcce047bd69b9c61381ceb4/transformed/jetified-lifecycle-viewmodel-compose-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/8e3fe056fe12dc510db113dd80ad871c/transformed/jetified-lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/7d024ae6cb8955b9842006d54f0de01c/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/sangpillyoon/.gradle/caches/transforms-3/64140558c3155e577a9b7fc04aabce30/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/a89ec8c2019182ccfbbce13e4da78150/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sangpillyoon/.gradle/caches/transforms-3/ac15057d7c9c7e62b702e89f775e9377/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/09879da3be73f1854a3e2ccdadded2a5/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/sangpillyoon/.gradle/caches/transforms-3/40ff2b4757a585e40fd166bec6363f76/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/7bb52ef3a4200a9abc4490267500281d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/184298b447ac363afa38f8dbca0ca35b/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/05a8f812d5eaed6d856ca9a1b80c6e28/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/c4901670fbe4218663b5bc811c831af5/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:17:1-69:12
+INJECTED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:17:1-69:12
+INJECTED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:17:1-69:12
+	package
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:18:5-53
+		INJECTED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml
+		INJECTED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:17:1-69:12
+		INJECTED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:17:1-69:12
+		INJECTED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:17:11-69
+uses-feature#android.hardware.type.watch
+ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:20:5-64
+	android:name
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:20:19-61
+application
+ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:22:5-68:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f2b17f8bf7cddc7542884cdf956da98d/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f2b17f8bf7cddc7542884cdf956da98d/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-wearable:18.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/af8ed23768054205f37a0b21781237ef/transformed/jetified-play-services-wearable-18.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:18.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/af8ed23768054205f37a0b21781237ef/transformed/jetified-play-services-wearable-18.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/sangpillyoon/.gradle/caches/transforms-3/22e549e258f235566cd7856c2cf2bff4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/sangpillyoon/.gradle/caches/transforms-3/22e549e258f235566cd7856c2cf2bff4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/sangpillyoon/.gradle/caches/transforms-3/d19ccb87588b1af2d47769564a876652/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/sangpillyoon/.gradle/caches/transforms-3/d19ccb87588b1af2d47769564a876652/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/f1f0a595c4251b6e52c0b862e37624fa/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/f1f0a595c4251b6e52c0b862e37624fa/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.4.0-beta05] /Users/sangpillyoon/.gradle/caches/transforms-3/ba8f8c97d8465ff7554614b5f7ea3b1c/transformed/jetified-emoji2-1.4.0-beta05/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.4.0-beta05] /Users/sangpillyoon/.gradle/caches/transforms-3/ba8f8c97d8465ff7554614b5f7ea3b1c/transformed/jetified-emoji2-1.4.0-beta05/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.11.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f319b12e7796856f5deebbf1588f1757/transformed/core-1.11.0-beta02/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.11.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f319b12e7796856f5deebbf1588f1757/transformed/core-1.11.0-beta02/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/1b4fd3704329d2513d940337461050ef/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/1b4fd3704329d2513d940337461050ef/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/sangpillyoon/.gradle/caches/transforms-3/64140558c3155e577a9b7fc04aabce30/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/sangpillyoon/.gradle/caches/transforms-3/64140558c3155e577a9b7fc04aabce30/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sangpillyoon/.gradle/caches/transforms-3/ac15057d7c9c7e62b702e89f775e9377/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sangpillyoon/.gradle/caches/transforms-3/ac15057d7c9c7e62b702e89f775e9377/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.11.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f319b12e7796856f5deebbf1588f1757/transformed/core-1.11.0-beta02/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:26:9-41
+	android:icon
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:25:9-45
+	android:allowBackup
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:23:9-35
+	android:theme
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:27:9-59
+	android:fullBackupOnly
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:24:9-38
+meta-data#com.google.android.wearable.standalone
+ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:29:9-31:37
+	android:value
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:31:13-34
+	android:name
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:30:13-66
+meta-data#com.google.android.gms.version
+ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:33:9-35:69
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/f1f0a595c4251b6e52c0b862e37624fa/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/f1f0a595c4251b6e52c0b862e37624fa/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:35:13-66
+	android:name
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:34:13-58
+service#com.example.android.wearable.datalayer.DataLayerListenerService
+ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:37:9-55:19
+	android:exported
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:38:13-53
+intent-filter#action:name:com.google.android.gms.wearable.DATA_CHANGED+data:host:*+data:pathPrefix:/count+data:scheme:wear
+ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:40:13-47:29
+action#com.google.android.gms.wearable.DATA_CHANGED
+ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:42:17-87
+	android:name
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:42:25-84
+data
+ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:43:17-46:45
+	android:host
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:44:21-37
+	android:scheme
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:46:21-42
+	android:pathPrefix
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:45:21-48
+intent-filter#action:name:com.google.android.gms.wearable.MESSAGE_RECEIVED+data:host:*+data:pathPrefix:/start-activity+data:scheme:wear
+ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:48:13-54:29
+action#com.google.android.gms.wearable.MESSAGE_RECEIVED
+ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:49:17-91
+	android:name
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:49:25-88
+activity#com.example.android.wearable.datalayer.MainActivity
+ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:56:9-67:20
+	android:exported
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:57:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:59:13-62:29
+action#android.intent.action.MAIN
+ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:60:17-69
+	android:name
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:60:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:61:17-77
+	android:name
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:61:27-74
+intent-filter#action:name:com.example.android.wearable.datalayer.EXAMPLE+category:name:android.intent.category.DEFAULT
+ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:63:13-66:29
+action#com.example.android.wearable.datalayer.EXAMPLE
+ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:64:17-89
+	android:name
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:64:25-86
+category#android.intent.category.DEFAULT
+ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:65:17-76
+	android:name
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml:65:27-73
+uses-sdk
+INJECTED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml
+INJECTED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml
+MERGED from [androidx.activity:activity:1.7.2] /Users/sangpillyoon/.gradle/caches/transforms-3/b5affbfebaaf09174bd3152973c774ff/transformed/jetified-activity-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.2] /Users/sangpillyoon/.gradle/caches/transforms-3/b5affbfebaaf09174bd3152973c774ff/transformed/jetified-activity-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.wear.compose:compose-material-core:1.2.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/938f5b677c59065eaf91ae6033befdf3/transformed/jetified-compose-material-core-1.2.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear.compose:compose-material-core:1.2.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/938f5b677c59065eaf91ae6033befdf3/transformed/jetified-compose-material-core-1.2.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear.compose:compose-foundation:1.2.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/529f4ea0a66b0575446bfcff4b7aa46d/transformed/jetified-compose-foundation-1.2.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear.compose:compose-foundation:1.2.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/529f4ea0a66b0575446bfcff4b7aa46d/transformed/jetified-compose-foundation-1.2.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear.compose:compose-material:1.2.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/3bc4227850166a5f568397192ccb9ab9/transformed/jetified-compose-material-1.2.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear.compose:compose-material:1.2.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/3bc4227850166a5f568397192ccb9ab9/transformed/jetified-compose-material-1.2.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f96a1f4cbbe3f4524d290894f7ae1da7/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f96a1f4cbbe3f4524d290894f7ae1da7/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/99f1d6dcbc67e0a6548f52d9dd8cd520/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/99f1d6dcbc67e0a6548f52d9dd8cd520/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/6a84f7205e2eddb0d622d5e89f1af435/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/6a84f7205e2eddb0d622d5e89f1af435/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/73f99f5ba4287008d006f47cfa4722f6/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/73f99f5ba4287008d006f47cfa4722f6/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/7fa02f3187df5f1ca504536bb63aa59d/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/7fa02f3187df5f1ca504536bb63aa59d/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/e0a0ee7ed009f41cfb5c982becd7f21c/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/e0a0ee7ed009f41cfb5c982becd7f21c/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/ac2236c2ea19ff3c7d2e076edb60234f/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/ac2236c2ea19ff3c7d2e076edb60234f/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/fe11e2c9849b795747bb595e74dcbfd2/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/fe11e2c9849b795747bb595e74dcbfd2/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/313af301a0f4c3177d65137459fbb624/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/313af301a0f4c3177d65137459fbb624/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f700c9cc62f31f1491ba0cc93e4f4ac1/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f700c9cc62f31f1491ba0cc93e4f4ac1/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f2b17f8bf7cddc7542884cdf956da98d/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f2b17f8bf7cddc7542884cdf956da98d/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/fe0b5b360c0ae40aa48487e7eae41185/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/fe0b5b360c0ae40aa48487e7eae41185/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/5e43de27d151ccdfb5aa52db5caeecab/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/5e43de27d151ccdfb5aa52db5caeecab/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/9228aec399cff40b5332ee4e9713d0fb/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/9228aec399cff40b5332ee4e9713d0fb/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/4b380f63ac5392a418a9352fba37cdeb/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/4b380f63ac5392a418a9352fba37cdeb/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/6e5c662a4bf1e5e8c9572e2977ecf054/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/6e5c662a4bf1e5e8c9572e2977ecf054/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.2] /Users/sangpillyoon/.gradle/caches/transforms-3/27c58cbecdfc287e2df70057cc690fcb/transformed/jetified-activity-ktx-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.2] /Users/sangpillyoon/.gradle/caches/transforms-3/27c58cbecdfc287e2df70057cc690fcb/transformed/jetified-activity-ktx-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.7.2] /Users/sangpillyoon/.gradle/caches/transforms-3/02ee860948a2373d0cbda6ee92936bd5/transformed/jetified-activity-compose-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.7.2] /Users/sangpillyoon/.gradle/caches/transforms-3/02ee860948a2373d0cbda6ee92936bd5/transformed/jetified-activity-compose-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable:18.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/af8ed23768054205f37a0b21781237ef/transformed/jetified-play-services-wearable-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable:18.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/af8ed23768054205f37a0b21781237ef/transformed/jetified-play-services-wearable-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/sangpillyoon/.gradle/caches/transforms-3/22e549e258f235566cd7856c2cf2bff4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/sangpillyoon/.gradle/caches/transforms-3/22e549e258f235566cd7856c2cf2bff4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/ed154484348e189ad7c9d77471244194/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/ed154484348e189ad7c9d77471244194/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/1ca7fb74497af86ff351431a3fdda037/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/1ca7fb74497af86ff351431a3fdda037/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/sangpillyoon/.gradle/caches/transforms-3/d19ccb87588b1af2d47769564a876652/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/sangpillyoon/.gradle/caches/transforms-3/d19ccb87588b1af2d47769564a876652/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/f1f0a595c4251b6e52c0b862e37624fa/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/f1f0a595c4251b6e52c0b862e37624fa/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/d0a730a7b64d0dec5a16982fa30906a0/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/d0a730a7b64d0dec5a16982fa30906a0/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.11.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/fca6afccdb0fd1cfb4d21af494d883e3/transformed/jetified-core-ktx-1.11.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.11.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/fca6afccdb0fd1cfb4d21af494d883e3/transformed/jetified-core-ktx-1.11.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/babd2137b2024400b9115fc12956e325/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/babd2137b2024400b9115fc12956e325/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0-beta05] /Users/sangpillyoon/.gradle/caches/transforms-3/ba8f8c97d8465ff7554614b5f7ea3b1c/transformed/jetified-emoji2-1.4.0-beta05/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0-beta05] /Users/sangpillyoon/.gradle/caches/transforms-3/ba8f8c97d8465ff7554614b5f7ea3b1c/transformed/jetified-emoji2-1.4.0-beta05/AndroidManifest.xml:21:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/983dda9adaa2c016be38c544a2a99e1b/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/983dda9adaa2c016be38c544a2a99e1b/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/3fa0db7e0b23c9a2ed9dc646f5190ae5/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/3fa0db7e0b23c9a2ed9dc646f5190ae5/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/b19e34dec807548efff5299b900da413/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/b19e34dec807548efff5299b900da413/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/5dba40ca2e782fc8295e86eb7a7edee0/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/5dba40ca2e782fc8295e86eb7a7edee0/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/caaa2f0beeb0964c97c7fb375dd077a8/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/caaa2f0beeb0964c97c7fb375dd077a8/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/67f3fa8c49d5d705e0a466a469a3f8b5/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/67f3fa8c49d5d705e0a466a469a3f8b5/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/509eb73da09c729d1384504c6512e1db/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/509eb73da09c729d1384504c6512e1db/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/bde995c2ee7538e469d3d522cbae5881/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/bde995c2ee7538e469d3d522cbae5881/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/65a90c443f7548040e05fc535985bf3b/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/65a90c443f7548040e05fc535985bf3b/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/ac2741ed1a2c8ef4f8cada9044683750/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/ac2741ed1a2c8ef4f8cada9044683750/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/b01a07e95a1f4ed958aa8230b7c4e8e2/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/b01a07e95a1f4ed958aa8230b7c4e8e2/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.11.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f319b12e7796856f5deebbf1588f1757/transformed/core-1.11.0-beta02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.11.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f319b12e7796856f5deebbf1588f1757/transformed/core-1.11.0-beta02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/8d79f0e74a5cefa628fe86eb8a7a6578/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/8d79f0e74a5cefa628fe86eb8a7a6578/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/1b4fd3704329d2513d940337461050ef/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/1b4fd3704329d2513d940337461050ef/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/a770cda70f2c6aaf9d0bfb62709235f5/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/a770cda70f2c6aaf9d0bfb62709235f5/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/eac1e6d97d60b4abb441ccf938cc18be/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/eac1e6d97d60b4abb441ccf938cc18be/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/1f96dae8ba818f16e23e02f5b43d1d79/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/1f96dae8ba818f16e23e02f5b43d1d79/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/sangpillyoon/.gradle/caches/transforms-3/e46beea89977fc5f6da9857b54b20704/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/sangpillyoon/.gradle/caches/transforms-3/e46beea89977fc5f6da9857b54b20704/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/sangpillyoon/.gradle/caches/transforms-3/17a791d3a2b3dbb1fed6265f03798962/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/sangpillyoon/.gradle/caches/transforms-3/17a791d3a2b3dbb1fed6265f03798962/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/84c9fa419549611ae3e4e611030ccb70/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/84c9fa419549611ae3e4e611030ccb70/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/cce3e220e6cdd6c1325fa9e7881e3e08/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/cce3e220e6cdd6c1325fa9e7881e3e08/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/c5a634feddcce047bd69b9c61381ceb4/transformed/jetified-lifecycle-viewmodel-compose-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/c5a634feddcce047bd69b9c61381ceb4/transformed/jetified-lifecycle-viewmodel-compose-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/8e3fe056fe12dc510db113dd80ad871c/transformed/jetified-lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/8e3fe056fe12dc510db113dd80ad871c/transformed/jetified-lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/7d024ae6cb8955b9842006d54f0de01c/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/7d024ae6cb8955b9842006d54f0de01c/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/sangpillyoon/.gradle/caches/transforms-3/64140558c3155e577a9b7fc04aabce30/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/sangpillyoon/.gradle/caches/transforms-3/64140558c3155e577a9b7fc04aabce30/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/a89ec8c2019182ccfbbce13e4da78150/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/a89ec8c2019182ccfbbce13e4da78150/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sangpillyoon/.gradle/caches/transforms-3/ac15057d7c9c7e62b702e89f775e9377/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sangpillyoon/.gradle/caches/transforms-3/ac15057d7c9c7e62b702e89f775e9377/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/09879da3be73f1854a3e2ccdadded2a5/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/09879da3be73f1854a3e2ccdadded2a5/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/sangpillyoon/.gradle/caches/transforms-3/40ff2b4757a585e40fd166bec6363f76/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/sangpillyoon/.gradle/caches/transforms-3/40ff2b4757a585e40fd166bec6363f76/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/7bb52ef3a4200a9abc4490267500281d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/7bb52ef3a4200a9abc4490267500281d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/184298b447ac363afa38f8dbca0ca35b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/184298b447ac363afa38f8dbca0ca35b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/05a8f812d5eaed6d856ca9a1b80c6e28/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/05a8f812d5eaed6d856ca9a1b80c6e28/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/c4901670fbe4218663b5bc811c831af5/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/sangpillyoon/.gradle/caches/transforms-3/c4901670fbe4218663b5bc811c831af5/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml
+INJECTED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml
+		INJECTED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml
+		ADDED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml
+		INJECTED from /Users/sangpillyoon/AndroidStudioProjects/wear-os/wear-os-samples/DataLayer/Wearable/src/main/AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f2b17f8bf7cddc7542884cdf956da98d/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f2b17f8bf7cddc7542884cdf956da98d/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f2b17f8bf7cddc7542884cdf956da98d/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/sangpillyoon/.gradle/caches/transforms-3/22e549e258f235566cd7856c2cf2bff4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/sangpillyoon/.gradle/caches/transforms-3/22e549e258f235566cd7856c2cf2bff4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/sangpillyoon/.gradle/caches/transforms-3/22e549e258f235566cd7856c2cf2bff4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/sangpillyoon/.gradle/caches/transforms-3/22e549e258f235566cd7856c2cf2bff4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.4.0-beta05] /Users/sangpillyoon/.gradle/caches/transforms-3/ba8f8c97d8465ff7554614b5f7ea3b1c/transformed/jetified-emoji2-1.4.0-beta05/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/1b4fd3704329d2513d940337461050ef/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/1b4fd3704329d2513d940337461050ef/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/sangpillyoon/.gradle/caches/transforms-3/64140558c3155e577a9b7fc04aabce30/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/sangpillyoon/.gradle/caches/transforms-3/64140558c3155e577a9b7fc04aabce30/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.4.0-beta05] /Users/sangpillyoon/.gradle/caches/transforms-3/ba8f8c97d8465ff7554614b5f7ea3b1c/transformed/jetified-emoji2-1.4.0-beta05/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.4.0-beta05] /Users/sangpillyoon/.gradle/caches/transforms-3/ba8f8c97d8465ff7554614b5f7ea3b1c/transformed/jetified-emoji2-1.4.0-beta05/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.4.0-beta05] /Users/sangpillyoon/.gradle/caches/transforms-3/ba8f8c97d8465ff7554614b5f7ea3b1c/transformed/jetified-emoji2-1.4.0-beta05/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0-beta05] /Users/sangpillyoon/.gradle/caches/transforms-3/ba8f8c97d8465ff7554614b5f7ea3b1c/transformed/jetified-emoji2-1.4.0-beta05/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.4.0-beta05] /Users/sangpillyoon/.gradle/caches/transforms-3/ba8f8c97d8465ff7554614b5f7ea3b1c/transformed/jetified-emoji2-1.4.0-beta05/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.4.0-beta05] /Users/sangpillyoon/.gradle/caches/transforms-3/ba8f8c97d8465ff7554614b5f7ea3b1c/transformed/jetified-emoji2-1.4.0-beta05/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0-beta05] /Users/sangpillyoon/.gradle/caches/transforms-3/ba8f8c97d8465ff7554614b5f7ea3b1c/transformed/jetified-emoji2-1.4.0-beta05/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.11.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f319b12e7796856f5deebbf1588f1757/transformed/core-1.11.0-beta02/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.11.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f319b12e7796856f5deebbf1588f1757/transformed/core-1.11.0-beta02/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.11.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f319b12e7796856f5deebbf1588f1757/transformed/core-1.11.0-beta02/AndroidManifest.xml:23:9-81
+permission#com.example.android.wearable.datalayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.11.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f319b12e7796856f5deebbf1588f1757/transformed/core-1.11.0-beta02/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.11.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f319b12e7796856f5deebbf1588f1757/transformed/core-1.11.0-beta02/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.11.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f319b12e7796856f5deebbf1588f1757/transformed/core-1.11.0-beta02/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.11.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f319b12e7796856f5deebbf1588f1757/transformed/core-1.11.0-beta02/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.11.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f319b12e7796856f5deebbf1588f1757/transformed/core-1.11.0-beta02/AndroidManifest.xml:26:22-94
+uses-permission#com.example.android.wearable.datalayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.11.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f319b12e7796856f5deebbf1588f1757/transformed/core-1.11.0-beta02/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.11.0-beta02] /Users/sangpillyoon/.gradle/caches/transforms-3/f319b12e7796856f5deebbf1588f1757/transformed/core-1.11.0-beta02/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/1b4fd3704329d2513d940337461050ef/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/1b4fd3704329d2513d940337461050ef/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/sangpillyoon/.gradle/caches/transforms-3/1b4fd3704329d2513d940337461050ef/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/sangpillyoon/.gradle/caches/transforms-3/9120006e894df7f49fcf0102787b1810/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
